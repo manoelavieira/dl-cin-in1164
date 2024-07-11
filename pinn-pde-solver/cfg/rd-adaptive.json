@@ -1,0 +1,117 @@
+[
+    {
+        "id": 0,
+        "system": "rd",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "gauss",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 2,
+            "rho": 5,
+            "beta": 0
+        },
+        "training": "adaptive",
+        "adaptive_step": 0.1,
+        "activation": "tanh"
+    },
+    {
+        "id": 1,
+        "system": "rd",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "gauss",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 3,
+            "rho": 5,
+            "beta": 0
+        },
+        "training": "adaptive",
+        "adaptive_step": 0.1,
+        "activation": "tanh"
+    },
+    {
+        "id": 2,
+        "system": "rd",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "gauss",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 4,
+            "rho": 5,
+            "beta": 0
+        },
+        "training": "adaptive",
+        "adaptive_step": 0.1,
+        "activation": "tanh"
+    },
+    {
+        "id": 3,
+        "system": "rd",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "gauss",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 5,
+            "rho": 5,
+            "beta": 0
+        },
+        "training": "adaptive",
+        "adaptive_step": 0.1,
+        "activation": "tanh"
+    },
+    {
+        "id": 4,
+        "system": "rd",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "gauss",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 6,
+            "rho": 5,
+            "beta": 0
+        },
+        "training": "adaptive",
+        "adaptive_step": 0.1,
+        "activation": "tanh"
+    }
+]

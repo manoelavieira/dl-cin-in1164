@@ -1,0 +1,90 @@
+[
+    {
+        "id": 0,
+        "system": "convection",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "sin(x)",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 0,
+            "beta": 10
+        },
+        "training": "vanilla",
+        "activation": "tanh"
+    },
+    {
+        "id": 1,
+        "system": "convection",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "sin(x)",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 0,
+            "beta": 20
+        },
+        "training": "vanilla",
+        "activation": "tanh"
+    },
+    {
+        "id": 2,
+        "system": "convection",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "sin(x)",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 0,
+            "beta": 30
+        },
+        "training": "vanilla",
+        "activation": "tanh"
+    },
+    {
+        "id": 3,
+        "system": "convection",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "sin(x)",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 0,
+            "beta": 40
+        },
+        "training": "vanilla",
+        "activation": "tanh"
+    }
+]

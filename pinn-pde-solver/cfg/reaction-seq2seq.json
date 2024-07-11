@@ -1,0 +1,140 @@
+[
+    {
+        "id": 0,
+        "system": "reaction",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "gauss",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 5,
+            "beta": 0
+        },
+        "training": "seq2seq",
+        "seq2seq_step": 0.1,
+        "activation": "tanh"
+    },
+    {
+        "id": 1,
+        "system": "reaction",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "gauss",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 6,
+            "beta": 0
+        },
+        "training": "seq2seq",
+        "seq2seq_step": 0.1,
+        "activation": "tanh"
+    },
+    {
+        "id": 2,
+        "system": "reaction",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "gauss",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 7,
+            "beta": 0
+        },
+        "training": "seq2seq",
+        "seq2seq_step": 0.1,
+        "activation": "tanh"
+    },
+    {
+        "id": 3,
+        "system": "reaction",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "gauss",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 8,
+            "beta": 0
+        },
+        "training": "seq2seq",
+        "seq2seq_step": 0.1,
+        "activation": "tanh"
+    },
+    {
+        "id": 4,
+        "system": "reaction",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "gauss",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 9,
+            "beta": 0
+        },
+        "training": "seq2seq",
+        "seq2seq_step": 0.1,
+        "activation": "tanh"
+    },
+    {
+        "id": 5,
+        "system": "reaction",
+        "seed": 0,
+        "N_f": 1000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "gauss",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 10,
+            "beta": 0
+        },
+        "training": "seq2seq",
+        "seq2seq_step": 0.1,
+        "activation": "tanh"
+    }
+]

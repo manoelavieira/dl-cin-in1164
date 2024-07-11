@@ -1,0 +1,94 @@
+[
+    {
+        "id": 4,
+        "system": "convection",
+        "seed": 0,
+        "N_f": 10000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "sin(x)",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 0,
+            "beta": 10
+        },
+        "adaptive_step": 0.1,
+        "training": "adaptive",
+        "activation": "tanh"
+    },
+    {
+        "id": 5,
+        "system": "convection",
+        "seed": 0,
+        "N_f": 10000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "sin(x)",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 0,
+            "beta": 20
+        },
+        "adaptive_step": 0.1,
+        "training": "adaptive",
+        "activation": "tanh"
+    },
+    {
+        "id": 6,
+        "system": "convection",
+        "seed": 0,
+        "N_f": 10000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "sin(x)",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 0,
+            "beta": 30
+        },
+        "adaptive_step": 0.1,
+        "training": "adaptive",
+        "activation": "tanh"
+    },
+    {
+        "id": 7,
+        "system": "convection",
+        "seed": 0,
+        "N_f": 10000,
+        "optimizer_name": "LBFGS",
+        "lr": 0.1,
+        "L": 1,
+        "epochs": 0,
+        "layers": "[50, 50, 50, 50, 1]",
+        "net": "DNN",
+        "u0_str": "sin(x)",
+        "xgrid": 256,
+        "tgrid": 100,
+        "parameters": {
+            "nu": 0,
+            "rho": 0,
+            "beta": 40
+        },
+        "adaptive_step": 0.1,
+        "training": "adaptive",
+        "activation": "tanh"
+    }
+]
